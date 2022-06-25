@@ -1,0 +1,1514 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 15748 8268
+encoding utf-8
+Sheet 1 1
+Title "Shmøergh Hog Spring Reverb"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:NE5532 U1
+U 1 1 62A9975F
+P 2600 4250
+F 0 "U1" H 2600 4617 50  0000 C CNN
+F 1 "NE5532" H 2600 4526 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 2600 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 2600 4250 50  0001 C CNN
+	1    2600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U1
+U 2 1 62A9AE41
+P 3450 3500
+F 0 "U1" H 3450 3867 50  0000 C CNN
+F 1 "NE5532" H 3450 3776 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 3450 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3450 3500 50  0001 C CNN
+	2    3450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U1
+U 3 1 62A9D04C
+P 2700 7050
+F 0 "U1" H 2658 7096 50  0000 L CNN
+F 1 "NE5532" H 2658 7005 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 2700 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 2700 7050 50  0001 C CNN
+	3    2700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 62A9FDD6
+P 1600 4150
+F 0 "C8" V 1348 4150 50  0000 C CNN
+F 1 "47n" V 1439 4150 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1638 4000 50  0001 C CNN
+F 3 "~" H 1600 4150 50  0001 C CNN
+	1    1600 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 62AA06BB
+P 1650 4950
+F 0 "R1" H 1720 4996 50  0000 L CNN
+F 1 "10k" H 1720 4905 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 1580 4950 50  0001 C CNN
+F 3 "~" H 1650 4950 50  0001 C CNN
+	1    1650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 62AA1013
+P 2150 5500
+F 0 "R2" H 2080 5454 50  0000 R CNN
+F 1 "150" H 2080 5545 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 2080 5500 50  0001 C CNN
+F 3 "~" H 2150 5500 50  0001 C CNN
+	1    2150 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 62AA19C7
+P 2150 5100
+F 0 "C2" H 2032 5054 50  0000 R CNN
+F 1 "10u" H 2032 5145 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 2188 4950 50  0001 C CNN
+F 3 "~" H 2150 5100 50  0001 C CNN
+	1    2150 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 62AA59B6
+P 2150 5650
+F 0 "#PWR05" H 2150 5400 50  0001 C CNN
+F 1 "GND" H 2155 5477 50  0000 C CNN
+F 2 "" H 2150 5650 50  0001 C CNN
+F 3 "" H 2150 5650 50  0001 C CNN
+	1    2150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5250 2150 5350
+Wire Wire Line
+	2300 4350 2150 4350
+$Comp
+L power:GND #PWR04
+U 1 1 62AAB047
+P 1650 5100
+F 0 "#PWR04" H 1650 4850 50  0001 C CNN
+F 1 "GND" H 1655 4927 50  0000 C CNN
+F 2 "" H 1650 5100 50  0001 C CNN
+F 3 "" H 1650 5100 50  0001 C CNN
+	1    1650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 62AACDB7
+P 2250 1500
+F 0 "#PWR06" H 2250 1250 50  0001 C CNN
+F 1 "GND" H 2255 1327 50  0000 C CNN
+F 2 "" H 2250 1500 50  0001 C CNN
+F 3 "" H 2250 1500 50  0001 C CNN
+	1    2250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3600 3100 3600
+Wire Wire Line
+	3100 3600 3100 3850
+$Comp
+L Device:R R4
+U 1 1 62AB1367
+P 4050 3500
+F 0 "R4" V 3843 3500 50  0000 C CNN
+F 1 "10" V 3934 3500 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 3980 3500 50  0001 C CNN
+F 3 "~" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 62AB1E6A
+P 4050 4250
+F 0 "R5" V 3843 4250 50  0000 C CNN
+F 1 "10" V 3934 4250 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 3980 4250 50  0001 C CNN
+F 3 "~" H 4050 4250 50  0001 C CNN
+	1    4050 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 62AB2C34
+P 4400 4500
+F 0 "R7" H 4470 4546 50  0000 L CNN
+F 1 "3.3k" H 4470 4455 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 4330 4500 50  0001 C CNN
+F 3 "~" H 4400 4500 50  0001 C CNN
+	1    4400 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4250 4400 4250
+Wire Wire Line
+	4400 4250 4400 4350
+Wire Wire Line
+	4400 4650 4400 4750
+$Comp
+L Connector:Conn_01x02_Male J_SEND1
+U 1 1 62AB48CF
+P 4900 4250
+F 0 "J_SEND1" H 5200 4500 50  0000 R CNN
+F 1 "Reverb send" H 5300 4400 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 4900 4250 50  0001 C CNN
+F 3 "~" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4350 4700 4750
+Wire Wire Line
+	4700 4750 4400 4750
+Wire Wire Line
+	4400 4250 4700 4250
+Connection ~ 4400 4250
+Text Notes 4850 4200 0    50   ~ 0
++
+Text Notes 4850 4450 0    50   ~ 0
+-
+Wire Wire Line
+	1750 4150 1850 4150
+Connection ~ 1850 4150
+Wire Wire Line
+	1850 4150 2300 4150
+$Comp
+L Connector:Conn_01x02_Male J_RETURN1
+U 1 1 62AD4A89
+P 5550 4250
+F 0 "J_RETURN1" H 5750 4500 50  0000 C CNN
+F 1 "Reverb return" H 5800 4400 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 5550 4250 50  0001 C CNN
+F 3 "~" H 5550 4250 50  0001 C CNN
+	1    5550 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 5550 4200 0    50   ~ 0
++
+Text Notes 5550 4450 0    50   ~ 0
+-
+$Comp
+L power:GND #PWR010
+U 1 1 62AD8720
+P 5850 4450
+F 0 "#PWR010" H 5850 4200 50  0001 C CNN
+F 1 "GND" H 5855 4277 50  0000 C CNN
+F 2 "" H 5850 4450 50  0001 C CNN
+F 3 "" H 5850 4450 50  0001 C CNN
+	1    5850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4350 5850 4350
+Wire Wire Line
+	5850 4350 5850 4450
+$Comp
+L Device:R R6
+U 1 1 62AD99D3
+P 6100 4500
+F 0 "R6" H 6170 4546 50  0000 L CNN
+F 1 "2.2k" H 6170 4455 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 6030 4500 50  0001 C CNN
+F 3 "~" H 6100 4500 50  0001 C CNN
+	1    6100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4250 6100 4250
+Wire Wire Line
+	6100 4250 6100 4350
+$Comp
+L Device:C C10
+U 1 1 62ADB590
+P 6100 4900
+F 0 "C10" H 6215 4946 50  0000 L CNN
+F 1 "22n" H 6215 4855 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6138 4750 50  0001 C CNN
+F 3 "~" H 6100 4900 50  0001 C CNN
+	1    6100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4750 6100 4650
+$Comp
+L power:GND #PWR011
+U 1 1 62ADC68D
+P 6100 5050
+F 0 "#PWR011" H 6100 4800 50  0001 C CNN
+F 1 "GND" H 6105 4877 50  0000 C CNN
+F 2 "" H 6100 5050 50  0001 C CNN
+F 3 "" H 6100 5050 50  0001 C CNN
+	1    6100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 62ADCAE9
+P 6500 4500
+F 0 "R8" H 6570 4546 50  0000 L CNN
+F 1 "100k" H 6570 4455 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 6430 4500 50  0001 C CNN
+F 3 "~" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4350 6500 4250
+Wire Wire Line
+	6500 4250 6100 4250
+Connection ~ 6100 4250
+$Comp
+L power:GND #PWR012
+U 1 1 62ADDA43
+P 6500 4650
+F 0 "#PWR012" H 6500 4400 50  0001 C CNN
+F 1 "GND" H 6505 4477 50  0000 C CNN
+F 2 "" H 6500 4650 50  0001 C CNN
+F 3 "" H 6500 4650 50  0001 C CNN
+	1    6500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U3
+U 1 1 62ADE46B
+P 7350 4350
+F 0 "U3" H 7350 4717 50  0000 C CNN
+F 1 "NE5532" H 7350 4626 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 7350 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 7350 4350 50  0001 C CNN
+	1    7350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U2
+U 2 1 62AE097D
+P 8300 6950
+F 0 "U2" H 8300 7317 50  0000 C CNN
+F 1 "NE5532" H 8300 7226 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 8300 6950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 8300 6950 50  0001 C CNN
+	2    8300 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U2
+U 3 1 62AE31A5
+P 3150 7050
+F 0 "U2" H 3108 7096 50  0000 L CNN
+F 1 "NE5532" H 3108 7005 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 3150 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3150 7050 50  0001 C CNN
+	3    3150 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C12
+U 1 1 62AEC32F
+P 6900 5250
+F 0 "C12" H 6782 5204 50  0000 R CNN
+F 1 "10u" H 6782 5295 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 6938 5100 50  0001 C CNN
+F 3 "~" H 6900 5250 50  0001 C CNN
+	1    6900 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 4450 6900 4450
+$Comp
+L Device:R R9
+U 1 1 62AEE608
+P 6900 5650
+F 0 "R9" H 6970 5696 50  0000 L CNN
+F 1 "220" H 6970 5605 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 6830 5650 50  0001 C CNN
+F 3 "~" H 6900 5650 50  0001 C CNN
+	1    6900 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5400 6900 5500
+$Comp
+L power:GND #PWR013
+U 1 1 62AF0F99
+P 6900 5800
+F 0 "#PWR013" H 6900 5550 50  0001 C CNN
+F 1 "GND" H 6905 5627 50  0000 C CNN
+F 2 "" H 6900 5800 50  0001 C CNN
+F 3 "" H 6900 5800 50  0001 C CNN
+	1    6900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4450 6900 4700
+$Comp
+L Device:R R11
+U 1 1 62AF336E
+P 7550 4700
+F 0 "R11" V 7343 4700 50  0000 C CNN
+F 1 "22k" V 7434 4700 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 7480 4700 50  0001 C CNN
+F 3 "~" H 7550 4700 50  0001 C CNN
+	1    7550 4700
+	0    1    1    0   
+$EndComp
+Connection ~ 6900 4700
+$Comp
+L Device:C C13
+U 1 1 62AF4D85
+P 7350 5050
+F 0 "C13" V 7098 5050 50  0000 C CNN
+F 1 "1n" V 7189 5050 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7388 4900 50  0001 C CNN
+F 3 "~" H 7350 5050 50  0001 C CNN
+	1    7350 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 5050 7850 5050
+Wire Wire Line
+	7850 5050 7850 4700
+Wire Wire Line
+	7850 4700 7700 4700
+Wire Wire Line
+	7650 4350 7850 4350
+Wire Wire Line
+	7850 4350 7850 4700
+Connection ~ 7850 4700
+Wire Wire Line
+	6900 4700 7400 4700
+Wire Wire Line
+	6900 4700 6900 5050
+Wire Wire Line
+	6900 5050 7200 5050
+$Comp
+L Device:CP C14
+U 1 1 62B03069
+P 8150 4350
+F 0 "C14" V 7895 4350 50  0000 C CNN
+F 1 "10u" V 7986 4350 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 8188 4200 50  0001 C CNN
+F 3 "~" H 8150 4350 50  0001 C CNN
+	1    8150 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 4350 7850 4350
+Connection ~ 7850 4350
+$Comp
+L power:GND #PWR014
+U 1 1 62B06B56
+P 13500 1900
+F 0 "#PWR014" H 13500 1650 50  0001 C CNN
+F 1 "GND" H 13505 1727 50  0000 C CNN
+F 2 "" H 13500 1900 50  0001 C CNN
+F 3 "" H 13500 1900 50  0001 C CNN
+	1    13500 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 4150 0    50   Input ~ 0
+DRIVE
+Wire Wire Line
+	1450 4150 1350 4150
+$Comp
+L Amplifier_Operational:NE5532 U2
+U 1 1 62B3B04A
+P 3500 1400
+F 0 "U2" H 3500 1767 50  0000 C CNN
+F 1 "NE5532" H 3500 1676 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 3500 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3500 1400 50  0001 C CNN
+	1    3500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U3
+U 2 1 62B417D9
+P 6100 1500
+F 0 "U3" H 6100 1867 50  0000 C CNN
+F 1 "NE5532" H 6100 1776 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 6100 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 6100 1500 50  0001 C CNN
+	2    6100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U3
+U 3 1 62B479B1
+P 3600 7050
+F 0 "U3" H 3558 7096 50  0000 L CNN
+F 1 "NE5532" H 3558 7005 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:DIP-8_W7.62mm" H 3600 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3600 7050 50  0001 C CNN
+	3    3600 7050
+	1    0    0    -1  
+$EndComp
+Text Notes 3000 4500 0    50   ~ 0
+TL074 instead of NE5532 here?
+$Comp
+L Device:R R3
+U 1 1 62B4DBB4
+P 2850 1550
+F 0 "R3" H 2920 1596 50  0000 L CNN
+F 1 "22k" H 2920 1505 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 2780 1550 50  0001 C CNN
+F 3 "~" H 2850 1550 50  0001 C CNN
+	1    2850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1500 3100 1500
+Wire Wire Line
+	3100 1500 3100 1700
+Wire Wire Line
+	3100 1700 3900 1700
+Wire Wire Line
+	3900 1700 3900 1400
+Wire Wire Line
+	3900 1400 3800 1400
+Wire Wire Line
+	3750 3500 3800 3500
+Wire Wire Line
+	3800 3850 3800 3500
+Wire Wire Line
+	3100 3850 3800 3850
+Connection ~ 3800 3500
+Wire Wire Line
+	3800 3500 3900 3500
+Wire Wire Line
+	2150 4350 2150 4750
+Wire Wire Line
+	4200 3500 4400 3500
+Wire Wire Line
+	4400 3500 4400 4250
+Wire Wire Line
+	3150 3400 3000 3400
+Wire Wire Line
+	3000 3400 3000 4250
+Wire Wire Line
+	3000 4250 2900 4250
+Wire Wire Line
+	3000 4250 3900 4250
+Connection ~ 3000 4250
+Wire Wire Line
+	4400 4750 2150 4750
+Connection ~ 4400 4750
+Connection ~ 2150 4750
+Wire Wire Line
+	2150 4750 2150 4950
+Wire Wire Line
+	7050 4250 6500 4250
+Connection ~ 6500 4250
+Wire Wire Line
+	3200 1300 2850 1300
+Wire Wire Line
+	2850 1300 2850 1400
+$Comp
+L power:GND #PWR07
+U 1 1 62B800EF
+P 2850 1700
+F 0 "#PWR07" H 2850 1450 50  0001 C CNN
+F 1 "GND" H 2855 1527 50  0000 C CNN
+F 2 "" H 2850 1700 50  0001 C CNN
+F 3 "" H 2850 1700 50  0001 C CNN
+	1    2850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1300 2850 1300
+$Comp
+L Device:CP C9
+U 1 1 62B85997
+P 4250 1650
+F 0 "C9" H 4000 1700 50  0000 L CNN
+F 1 "10u" H 3950 1600 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 4288 1500 50  0001 C CNN
+F 3 "~" H 4250 1650 50  0001 C CNN
+	1    4250 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 1400
+$Comp
+L Device:R_POT RV_DRIVE1
+U 1 1 62B88DD6
+P 4250 2000
+F 0 "RV_DRIVE1" H 4180 2046 50  0000 R CNN
+F 1 "10k" H 4180 1955 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 4250 2000 50  0001 C CNN
+F 3 "~" H 4250 2000 50  0001 C CNN
+	1    4250 2000
+	1    0    0    1   
+$EndComp
+Text GLabel 4500 2000 2    50   Input ~ 0
+DRIVE
+Wire Wire Line
+	4500 2000 4400 2000
+Text GLabel 8400 4350 2    50   Input ~ 0
+PREAMP
+Wire Wire Line
+	8400 4350 8300 4350
+Text GLabel 5150 2000 2    50   Input ~ 0
+PREAMP
+$Comp
+L power:GND #PWR09
+U 1 1 62B9370C
+P 4250 2150
+F 0 "#PWR09" H 4250 1900 50  0001 C CNN
+F 1 "GND" H 4255 1977 50  0000 C CNN
+F 2 "" H 4250 2150 50  0001 C CNN
+F 3 "" H 4250 2150 50  0001 C CNN
+	1    4250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV_DRY/WET1
+U 1 1 62B93E9F
+P 5100 1700
+F 0 "RV_DRY/WET1" H 5031 1746 50  0000 R CNN
+F 1 "10k" H 5031 1655 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 5100 1700 50  0001 C CNN
+F 3 "~" H 5100 1700 50  0001 C CNN
+	1    5100 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1800 4250 1850
+Wire Wire Line
+	4250 1500 4250 1400
+Wire Wire Line
+	3900 1400 4250 1400
+Wire Wire Line
+	5100 1550 5100 1400
+Wire Wire Line
+	5100 1400 4250 1400
+Connection ~ 4250 1400
+Wire Wire Line
+	5150 2000 5100 2000
+Wire Wire Line
+	5100 2000 5100 1850
+Wire Wire Line
+	5800 1400 5450 1400
+Wire Wire Line
+	5450 1400 5450 1700
+Wire Wire Line
+	5450 1700 5250 1700
+Wire Wire Line
+	5800 1600 5700 1600
+Wire Wire Line
+	5700 1600 5700 1800
+Wire Wire Line
+	5700 1800 6500 1800
+Wire Wire Line
+	6500 1800 6500 1500
+Wire Wire Line
+	6500 1500 6400 1500
+$Comp
+L Device:CP C11
+U 1 1 62BD2659
+P 6750 1500
+F 0 "C11" V 7005 1500 50  0000 C CNN
+F 1 "10u" V 6914 1500 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 6788 1350 50  0001 C CNN
+F 3 "~" H 6750 1500 50  0001 C CNN
+	1    6750 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 1500 6500 1500
+Connection ~ 6500 1500
+$Comp
+L Device:R R10
+U 1 1 62BD6318
+P 7150 1500
+F 0 "R10" V 6943 1500 50  0000 C CNN
+F 1 "100" V 7034 1500 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 7080 1500 50  0001 C CNN
+F 3 "~" H 7150 1500 50  0001 C CNN
+	1    7150 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 1500 6900 1500
+Wire Wire Line
+	8000 7050 7900 7050
+Wire Wire Line
+	7900 7050 7900 7250
+Wire Wire Line
+	7900 7250 8700 7250
+Wire Wire Line
+	8700 7250 8700 6950
+Wire Wire Line
+	8700 6950 8600 6950
+$Comp
+L power:GND #PWR08
+U 1 1 62BF70DD
+P 7750 7000
+F 0 "#PWR08" H 7750 6750 50  0001 C CNN
+F 1 "GND" H 7755 6827 50  0000 C CNN
+F 2 "" H 7750 7000 50  0001 C CNN
+F 3 "" H 7750 7000 50  0001 C CNN
+	1    7750 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 6850 7750 6850
+Wire Wire Line
+	7750 6850 7750 7000
+Text Notes 6200 4700 0    50   ~ 0
+10k?
+Text Notes 6250 5100 0    50   ~ 0
+1n?
+Text Notes 7500 4950 0    50   ~ 0
+10n?
+Text Notes 7650 4550 0    50   ~ 0
+10k?
+Text Notes 6100 4100 0    50   ~ 0
+Maybe not needed,\nit’s used to avoid\nop-amp to self-oscillate\nwhen reverb is unplugged
+Wire Notes Line
+	6800 4150 6800 4500
+Wire Notes Line
+	6800 4500 6700 4500
+$Comp
+L Device:C C6
+U 1 1 62C23AAD
+P 2150 6900
+F 0 "C6" H 2265 6946 50  0000 L CNN
+F 1 "100n" H 2265 6855 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 2188 6750 50  0001 C CNN
+F 3 "~" H 2150 6900 50  0001 C CNN
+	1    2150 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 62C245AE
+P 2150 7200
+F 0 "C7" H 2265 7246 50  0000 L CNN
+F 1 "100n" H 2265 7155 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 2188 7050 50  0001 C CNN
+F 3 "~" H 2150 7200 50  0001 C CNN
+	1    2150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 62C25827
+P 1650 6900
+F 0 "C4" H 1765 6946 50  0000 L CNN
+F 1 "100n" H 1765 6855 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1688 6750 50  0001 C CNN
+F 3 "~" H 1650 6900 50  0001 C CNN
+	1    1650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 62C2582D
+P 1650 7200
+F 0 "C5" H 1765 7246 50  0000 L CNN
+F 1 "100n" H 1765 7155 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1688 7050 50  0001 C CNN
+F 3 "~" H 1650 7200 50  0001 C CNN
+	1    1650 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 62C28CAC
+P 1150 6900
+F 0 "C1" H 1265 6946 50  0000 L CNN
+F 1 "100n" H 1265 6855 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1188 6750 50  0001 C CNN
+F 3 "~" H 1150 6900 50  0001 C CNN
+	1    1150 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 62C28CB2
+P 1150 7200
+F 0 "C3" H 1265 7246 50  0000 L CNN
+F 1 "100n" H 1265 7155 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1188 7050 50  0001 C CNN
+F 3 "~" H 1150 7200 50  0001 C CNN
+	1    1150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 62C3639A
+P 800 7050
+F 0 "#PWR02" H 800 6800 50  0001 C CNN
+F 1 "GND" H 805 6877 50  0000 C CNN
+F 2 "" H 800 7050 50  0001 C CNN
+F 3 "" H 800 7050 50  0001 C CNN
+	1    800  7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  7050 1150 7050
+Connection ~ 2150 7050
+Connection ~ 1150 7050
+Wire Wire Line
+	1150 7050 1650 7050
+Connection ~ 1650 7050
+Wire Wire Line
+	1650 7050 2150 7050
+$Comp
+L power:+12V #PWR01
+U 1 1 62C3BF0A
+P 800 6700
+F 0 "#PWR01" H 800 6550 50  0001 C CNN
+F 1 "+12V" H 815 6873 50  0000 C CNN
+F 2 "" H 800 6700 50  0001 C CNN
+F 3 "" H 800 6700 50  0001 C CNN
+	1    800  6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  6700 800  6750
+Wire Wire Line
+	800  6750 1150 6750
+Connection ~ 1150 6750
+Wire Wire Line
+	1150 6750 1650 6750
+Connection ~ 1650 6750
+Wire Wire Line
+	1650 6750 2150 6750
+Connection ~ 2150 6750
+Wire Wire Line
+	2150 6750 2600 6750
+Connection ~ 2600 6750
+Wire Wire Line
+	2600 6750 3050 6750
+Connection ~ 3050 6750
+Wire Wire Line
+	3050 6750 3500 6750
+$Comp
+L power:-12V #PWR03
+U 1 1 62C43ABF
+P 800 7400
+F 0 "#PWR03" H 800 7500 50  0001 C CNN
+F 1 "-12V" H 815 7573 50  0000 C CNN
+F 2 "" H 800 7400 50  0001 C CNN
+F 3 "" H 800 7400 50  0001 C CNN
+	1    800  7400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	800  7400 800  7350
+Wire Wire Line
+	800  7350 1150 7350
+Connection ~ 1150 7350
+Wire Wire Line
+	1150 7350 1650 7350
+Connection ~ 1650 7350
+Wire Wire Line
+	1650 7350 2150 7350
+Connection ~ 2150 7350
+Wire Wire Line
+	2150 7350 2600 7350
+Connection ~ 2600 7350
+Wire Wire Line
+	2600 7350 3050 7350
+Connection ~ 3050 7350
+Wire Wire Line
+	3050 7350 3500 7350
+Wire Notes Line
+	4900 4500 4900 4650
+Wire Notes Line
+	4900 4650 5550 4650
+Wire Notes Line
+	5550 4650 5550 4500
+Wire Notes Line
+	4900 3900 4900 3850
+Wire Notes Line
+	4900 3850 5550 3850
+Wire Notes Line
+	5550 3850 5550 3900
+Text Notes 4950 4600 0    50   ~ 0
+AMC2BF3\nSpring reverb
+Wire Notes Line
+	750  2750 4900 2750
+Wire Notes Line
+	4900 2750 4900 3750
+Wire Notes Line
+	750  2750 750  6100
+Wire Notes Line
+	750  6100 4900 6100
+Wire Notes Line
+	4900 6100 4900 4700
+Wire Notes Line
+	5550 3750 5550 2750
+Wire Notes Line
+	5550 2750 9400 2750
+Wire Notes Line
+	9400 2750 9400 6100
+Wire Notes Line
+	9400 6100 5550 6100
+Wire Notes Line
+	5550 6100 5550 4700
+Wire Wire Line
+	6900 5100 6900 5050
+Connection ~ 6900 5050
+Wire Notes Line
+	750  2600 9400 2600
+Wire Notes Line
+	9400 2600 9400 750 
+Wire Notes Line
+	9400 750  750  750 
+Wire Notes Line
+	750  750  750  2600
+Text Notes 850  2500 0    50   ~ 0
+Mixer and output
+Text Notes 850  6000 0    50   ~ 0
+Drive
+Text Notes 5650 6000 0    50   ~ 0
+Preamp/recovery
+Text Notes 3850 1050 0    50   ~ 0
+TL072 instead of NE5532 here?
+Text Notes 7900 4000 0    50   ~ 0
+Maybe not needed. The output \nstage takes care of DC
+Wire Notes Line
+	8400 4050 8400 4250
+Wire Notes Line
+	8400 4250 8250 4250
+$Comp
+L Device:R_POT RV_HP1
+U 1 1 62AB5AF2
+P 1850 4500
+F 0 "RV_HP1" H 2350 4600 50  0000 R CNN
+F 1 "100k" H 2250 4500 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 1850 4500 50  0001 C CNN
+F 3 "~" H 1850 4500 50  0001 C CNN
+	1    1850 4500
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1850 4650
+Wire Wire Line
+	1850 4150 1850 4350
+Wire Wire Line
+	1700 4500 1650 4500
+Wire Wire Line
+	1650 4500 1650 4800
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 62C8F21F
+P 12350 1650
+F 0 "SW1" H 12350 2135 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 12350 2044 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:Switch_DPDT" H 12350 1850 50  0001 C CNN
+F 3 "~" H 12350 1850 50  0001 C CNN
+	1    12350 1650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2850 1300
+Text GLabel 2800 1050 0    50   Input ~ 0
+RAW_INPUT
+Wire Wire Line
+	2800 1050 2850 1050
+Wire Wire Line
+	2850 1050 2850 1300
+Text GLabel 7400 1500 2    50   Input ~ 0
+FX_OUTPUT
+Wire Wire Line
+	7400 1500 7300 1500
+Text GLabel 11950 1350 0    50   Input ~ 0
+RAW_INPUT
+Wire Wire Line
+	11950 1350 12150 1350
+Text GLabel 11950 1550 0    50   Input ~ 0
+FX_OUTPUT
+Wire Wire Line
+	11950 1550 12150 1550
+$Comp
+L Device:LED D1
+U 1 1 62D07DCF
+P 12800 1850
+F 0 "D1" H 12793 1595 50  0000 C CNN
+F 1 "Green LED" H 12793 1686 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 12800 1850 50  0001 C CNN
+F 3 "~" H 12800 1850 50  0001 C CNN
+	1    12800 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12650 1850 12550 1850
+NoConn ~ 12150 1750
+$Comp
+L power:+12V #PWR0101
+U 1 1 62D2681E
+P 11250 1850
+F 0 "#PWR0101" H 11250 1700 50  0001 C CNN
+F 1 "+12V" H 11265 2023 50  0000 C CNN
+F 2 "" H 11250 1850 50  0001 C CNN
+F 3 "" H 11250 1850 50  0001 C CNN
+	1    11250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 62D27978
+P 11750 1950
+F 0 "R13" V 11950 1950 50  0000 C CNN
+F 1 "1k" V 11850 1950 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 11680 1950 50  0001 C CNN
+F 3 "~" H 11750 1950 50  0001 C CNN
+	1    11750 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11900 1950 12150 1950
+Wire Wire Line
+	11250 1850 11250 1950
+Wire Wire Line
+	11250 1950 11600 1950
+NoConn ~ 13050 3950
+NoConn ~ 13050 4050
+NoConn ~ 13050 4150
+NoConn ~ 13050 4250
+NoConn ~ 13050 4450
+Wire Wire Line
+	13200 4350 13050 4350
+Wire Wire Line
+	13200 4550 13050 4550
+Wire Wire Line
+	13200 4650 13050 4650
+Wire Wire Line
+	13200 4750 13050 4750
+Wire Wire Line
+	13600 4750 13600 4850
+Connection ~ 13600 4750
+Wire Wire Line
+	13500 4750 13600 4750
+Wire Wire Line
+	13600 4650 13600 4750
+Connection ~ 13600 4650
+Wire Wire Line
+	13500 4650 13600 4650
+Wire Wire Line
+	13600 4550 13600 4650
+Connection ~ 13600 4550
+Wire Wire Line
+	13500 4550 13600 4550
+Wire Wire Line
+	13600 4350 13600 4550
+Connection ~ 13600 4350
+Wire Wire Line
+	13500 4350 13600 4350
+$Comp
+L Device:LED D2
+U 1 1 62BEBA2E
+P 13350 4350
+F 0 "D2" H 13700 4350 50  0000 C CNN
+F 1 "Red LED" H 13950 4350 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 13350 4350 50  0001 C CNN
+F 3 "~" H 13350 4350 50  0001 C CNN
+	1    13350 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 62BEB65A
+P 13350 4550
+F 0 "D3" H 13700 4550 50  0000 C CNN
+F 1 "Yellow LED" H 14000 4550 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 13350 4550 50  0001 C CNN
+F 3 "~" H 13350 4550 50  0001 C CNN
+	1    13350 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 62BEB257
+P 13350 4650
+F 0 "D4" H 13700 4650 50  0000 C CNN
+F 1 "Green LED" H 14000 4650 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 13350 4650 50  0001 C CNN
+F 3 "~" H 13350 4650 50  0001 C CNN
+	1    13350 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 62BEAC84
+P 13350 4750
+F 0 "D5" H 13700 4750 50  0000 C CNN
+F 1 "Green LED" H 14000 4750 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 13350 4750 50  0001 C CNN
+F 3 "~" H 13350 4750 50  0001 C CNN
+	1    13350 4750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13600 3700 13600 4350
+Connection ~ 13600 4850
+Wire Wire Line
+	13600 5150 13600 4850
+Wire Wire Line
+	13050 5150 13600 5150
+Wire Wire Line
+	13200 4850 13050 4850
+Wire Wire Line
+	13500 4850 13600 4850
+$Comp
+L Device:LED D6
+U 1 1 62BCB166
+P 13350 4850
+F 0 "D6" H 13700 4850 50  0000 C CNN
+F 1 "Green LED" H 14000 4850 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:D_Axial-Vertical" H 13350 4850 50  0001 C CNN
+F 3 "~" H 13350 4850 50  0001 C CNN
+	1    13350 4850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13300 3700 13600 3700
+Connection ~ 12650 3700
+Wire Wire Line
+	13000 3700 12650 3700
+$Comp
+L Device:R R16
+U 1 1 62BBD62C
+P 13150 3700
+F 0 "R16" V 12943 3700 50  0000 C CNN
+F 1 "150" V 13034 3700 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 13080 3700 50  0001 C CNN
+F 3 "~" H 13150 3700 50  0001 C CNN
+	1    13150 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11650 3700 11650 3750
+$Comp
+L power:GND #PWR0102
+U 1 1 62BB6CC2
+P 11650 3750
+F 0 "#PWR0102" H 11650 3500 50  0001 C CNN
+F 1 "GND" H 11655 3577 50  0000 C CNN
+F 2 "" H 11650 3750 50  0001 C CNN
+F 3 "" H 11650 3750 50  0001 C CNN
+	1    11650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 3700 11950 3700
+$Comp
+L Device:C C15
+U 1 1 62BB01A5
+P 11800 3700
+F 0 "C15" V 12050 3800 50  0000 C CNN
+F 1 "100n" V 11950 3750 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 11838 3550 50  0001 C CNN
+F 3 "~" H 11800 3700 50  0001 C CNN
+	1    11800 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12050 3700 12050 3600
+Connection ~ 12050 3700
+Wire Wire Line
+	12650 3700 12050 3700
+Wire Wire Line
+	12650 3750 12650 3700
+Wire Wire Line
+	12050 3950 12050 3700
+Wire Wire Line
+	12250 3950 12050 3950
+$Comp
+L power:+12V #PWR0103
+U 1 1 62B9F1BB
+P 12050 3600
+F 0 "#PWR0103" H 12050 3450 50  0001 C CNN
+F 1 "+12V" H 12065 3773 50  0000 C CNN
+F 2 "" H 12050 3600 50  0001 C CNN
+F 3 "" H 12050 3600 50  0001 C CNN
+	1    12050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 62B9DE10
+P 12250 4850
+F 0 "#PWR0104" H 12250 4600 50  0001 C CNN
+F 1 "GND" H 12255 4677 50  0000 C CNN
+F 2 "" H 12250 4850 50  0001 C CNN
+F 3 "" H 12250 4850 50  0001 C CNN
+	1    12250 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 5150 12650 5250
+Connection ~ 12650 5150
+Wire Wire Line
+	12750 5150 12650 5150
+$Comp
+L Device:C C16
+U 1 1 62B9738E
+P 12900 5150
+F 0 "C16" V 13150 5250 50  0000 C CNN
+F 1 "100n" V 13050 5200 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 12938 5000 50  0001 C CNN
+F 3 "~" H 12900 5150 50  0001 C CNN
+	1    12900 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12650 5050 12650 5150
+$Comp
+L power:GND #PWR0105
+U 1 1 62B90A21
+P 12650 5250
+F 0 "#PWR0105" H 12650 5000 50  0001 C CNN
+F 1 "GND" H 12655 5077 50  0000 C CNN
+F 2 "" H 12650 5250 50  0001 C CNN
+F 3 "" H 12650 5250 50  0001 C CNN
+	1    12650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 62B901AD
+P 11800 5150
+F 0 "#PWR0106" H 11800 4900 50  0001 C CNN
+F 1 "GND" H 11805 4977 50  0000 C CNN
+F 2 "" H 11800 5150 50  0001 C CNN
+F 3 "" H 11800 5150 50  0001 C CNN
+	1    11800 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 11800 4750
+Wire Wire Line
+	11800 4850 11800 4750
+Wire Wire Line
+	12100 4350 11800 4350
+Connection ~ 12100 4350
+Wire Wire Line
+	12100 4550 12100 4350
+Wire Wire Line
+	12250 4550 12100 4550
+Wire Wire Line
+	11800 4750 12250 4750
+Wire Wire Line
+	11800 4700 11800 4750
+Wire Wire Line
+	11800 4350 11800 4400
+Wire Wire Line
+	12250 4350 12100 4350
+$Comp
+L Zimo_Custom_Components:LM3915N U4
+U 1 1 62B78D3B
+P 12650 4350
+F 0 "U4" H 12650 5200 50  0000 C CNN
+F 1 "LM3915N" H 12650 5100 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 12660 3140 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm3914.pdf" H 12650 4350 50  0001 C CNN
+	1    12650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 62B5F509
+P 11800 5000
+F 0 "R15" H 11870 5046 50  0000 L CNN
+F 1 "2k" H 11870 4955 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 11730 5000 50  0001 C CNN
+F 3 "~" H 11800 5000 50  0001 C CNN
+	1    11800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 62B5ED6D
+P 11800 4550
+F 0 "R14" H 11870 4596 50  0000 L CNN
+F 1 "1k" H 11870 4505 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 11730 4550 50  0001 C CNN
+F 3 "~" H 11800 4550 50  0001 C CNN
+	1    11800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 62B57A98
+P 11450 4300
+F 0 "#PWR0107" H 11450 4050 50  0001 C CNN
+F 1 "GND" H 11455 4127 50  0000 C CNN
+F 2 "" H 11450 4300 50  0001 C CNN
+F 3 "" H 11450 4300 50  0001 C CNN
+	1    11450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 4150 11600 4150
+Wire Wire Line
+	11200 3900 11450 3900
+Wire Wire Line
+	11450 3900 11450 4000
+Wire Wire Line
+	10900 3900 10800 3900
+$Comp
+L Device:R R12
+U 1 1 62B13031
+P 11050 3900
+F 0 "R12" V 10843 3900 50  0000 C CNN
+F 1 "1k" V 10934 3900 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 10980 3900 50  0001 C CNN
+F 3 "~" H 11050 3900 50  0001 C CNN
+	1    11050 3900
+	0    1    1    0   
+$EndComp
+Text GLabel 10800 3900 0    50   Input ~ 0
+DRIVE
+Wire Notes Line
+	9550 750  9550 2600
+Wire Notes Line
+	9550 2600 14950 2600
+Wire Notes Line
+	14950 2600 14950 750 
+Wire Notes Line
+	14950 750  9550 750 
+Wire Notes Line
+	9550 2750 14950 2750
+Wire Notes Line
+	14950 2750 14950 6100
+Wire Notes Line
+	14950 6100 9550 6100
+Wire Notes Line
+	9550 6100 9550 2750
+Text Notes 9650 2500 0    50   ~ 0
+On/off switch
+Text Notes 9650 5950 0    50   ~ 0
+VU meter
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 62D945F8
+P 9850 6950
+F 0 "J1" H 9900 7367 50  0000 C CNN
+F 1 "Eurorack power" H 9900 7276 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:Eurorack_Power_Supply" H 9850 6950 50  0001 C CNN
+F 3 "~" H 9850 6950 50  0001 C CNN
+	1    9850 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0108
+U 1 1 62D96ABB
+P 10300 7200
+F 0 "#PWR0108" H 10300 7300 50  0001 C CNN
+F 1 "-12V" H 10315 7373 50  0000 C CNN
+F 2 "" H 10300 7200 50  0001 C CNN
+F 3 "" H 10300 7200 50  0001 C CNN
+	1    10300 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10300 7200 10300 7150
+Wire Wire Line
+	10300 7150 10150 7150
+$Comp
+L power:-12V #PWR0109
+U 1 1 62D9ED9E
+P 9450 7200
+F 0 "#PWR0109" H 9450 7300 50  0001 C CNN
+F 1 "-12V" H 9465 7373 50  0000 C CNN
+F 2 "" H 9450 7200 50  0001 C CNN
+F 3 "" H 9450 7200 50  0001 C CNN
+	1    9450 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9650 7150 9450 7150
+Wire Wire Line
+	9450 7150 9450 7200
+$Comp
+L power:+12V #PWR0110
+U 1 1 62DB5EDF
+P 9450 6700
+F 0 "#PWR0110" H 9450 6550 50  0001 C CNN
+F 1 "+12V" H 9465 6873 50  0000 C CNN
+F 2 "" H 9450 6700 50  0001 C CNN
+F 3 "" H 9450 6700 50  0001 C CNN
+	1    9450 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 6700 9450 6750
+Wire Wire Line
+	9450 6750 9650 6750
+$Comp
+L power:+12V #PWR0111
+U 1 1 62DBE64D
+P 10300 6700
+F 0 "#PWR0111" H 10300 6550 50  0001 C CNN
+F 1 "+12V" H 10315 6873 50  0000 C CNN
+F 2 "" H 10300 6700 50  0001 C CNN
+F 3 "" H 10300 6700 50  0001 C CNN
+	1    10300 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 6700 10300 6750
+Wire Wire Line
+	10300 6750 10150 6750
+$Comp
+L power:GND #PWR0112
+U 1 1 62DC885C
+P 10300 6850
+F 0 "#PWR0112" H 10300 6600 50  0001 C CNN
+F 1 "GND" H 10305 6677 50  0000 C CNN
+F 2 "" H 10300 6850 50  0001 C CNN
+F 3 "" H 10300 6850 50  0001 C CNN
+	1    10300 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 6850 10200 6850
+Wire Wire Line
+	10150 7050 10200 7050
+Wire Wire Line
+	10200 7050 10200 6950
+Connection ~ 10200 6850
+Wire Wire Line
+	10200 6850 10150 6850
+Wire Wire Line
+	10150 6950 10200 6950
+Connection ~ 10200 6950
+Wire Wire Line
+	10200 6950 10200 6850
+$Comp
+L power:GND #PWR0113
+U 1 1 62DE1B9A
+P 9450 6850
+F 0 "#PWR0113" H 9450 6600 50  0001 C CNN
+F 1 "GND" H 9455 6677 50  0000 C CNN
+F 2 "" H 9450 6850 50  0001 C CNN
+F 3 "" H 9450 6850 50  0001 C CNN
+	1    9450 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 6850 9600 6850
+Wire Wire Line
+	9650 7050 9600 7050
+Wire Wire Line
+	9600 7050 9600 6950
+Connection ~ 9600 6850
+Wire Wire Line
+	9600 6850 9450 6850
+Wire Wire Line
+	9650 6950 9600 6950
+Connection ~ 9600 6950
+Wire Wire Line
+	9600 6950 9600 6850
+$Comp
+L Device:R_POT_TRIM RV_VU_SENSITIVITY1
+U 1 1 62E2B69A
+P 11450 4150
+F 0 "RV_VU_SENSITIVITY1" H 11381 4196 50  0000 R CNN
+F 1 "100k" H 11381 4105 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:TrimPot_Vertical" H 11450 4150 50  0001 C CNN
+F 3 "~" H 11450 4150 50  0001 C CNN
+	1    11450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zimo_Custom_Components:AudioJack2_Thonkiconn J_AUDIO_IN1
+U 1 1 62E96400
+P 2250 1300
+F 0 "J_AUDIO_IN1" H 2050 1600 50  0000 C CNN
+F 1 "Audio In" H 2100 1500 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:Jack_3.5mm_Thonkiconn" H 2250 1300 50  0001 C CNN
+F 3 "~" H 2250 1300 50  0001 C CNN
+	1    2250 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2450 1400
+$Comp
+L Zimo_Custom_Components:AudioJack2_Thonkiconn J_AUDIO_OUT1
+U 1 1 62EB3CC3
+P 13500 1450
+F 0 "J_AUDIO_OUT1" H 13300 1750 50  0000 C CNN
+F 1 "Audio Out" H 13350 1650 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:Jack_3.5mm_Thonkiconn" H 13500 1450 50  0001 C CNN
+F 3 "~" H 13500 1450 50  0001 C CNN
+	1    13500 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 1650 13500 1850
+Wire Wire Line
+	12950 1850 13500 1850
+Wire Wire Line
+	13500 1900 13500 1850
+Connection ~ 13500 1850
+Wire Wire Line
+	12550 1450 13300 1450
+NoConn ~ 13300 1550
+$Comp
+L Device:CP C17
+U 1 1 62F6F1EC
+P 4050 6900
+F 0 "C17" H 4168 6946 50  0000 L CNN
+F 1 "10u" H 4168 6855 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 4088 6750 50  0001 C CNN
+F 3 "~" H 4050 6900 50  0001 C CNN
+	1    4050 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C18
+U 1 1 62F6FADE
+P 4050 7200
+F 0 "C18" H 4168 7246 50  0000 L CNN
+F 1 "10u" H 4168 7155 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 4088 7050 50  0001 C CNN
+F 3 "~" H 4050 7200 50  0001 C CNN
+	1    4050 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6750 3500 6750
+Connection ~ 3500 6750
+Wire Wire Line
+	3500 7350 4050 7350
+Connection ~ 3500 7350
+$Comp
+L power:GND #PWR015
+U 1 1 62F822FF
+P 4550 7050
+F 0 "#PWR015" H 4550 6800 50  0001 C CNN
+F 1 "GND" H 4555 6877 50  0000 C CNN
+F 2 "" H 4550 7050 50  0001 C CNN
+F 3 "" H 4550 7050 50  0001 C CNN
+	1    4550 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7050 4050 7050
+Connection ~ 4050 7050
+$EndSCHEMATC
